@@ -1,0 +1,36 @@
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+.halfFill { 
+    min-height: 50%;
+    height: 50%;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+.bigRect {
+    min-height: 100%;
+    width: 100px;
+    border-radius: 10px;
+  }
+
+.rectangle {
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 4px;
+    border: solid 1px #e0e0e0;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  .rectangle2 {
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+  }
